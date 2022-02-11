@@ -14,7 +14,7 @@ const InnerWrapper = styled.div`
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    min-height: 100vh;
+    min-height: 75vh;
   }
 
   @media ${device.laptopL} {
@@ -57,7 +57,7 @@ const IntroDesktop = styled.img`
     position: absolute;
     bottom: -20%;
     transform: scale(0.85);
-    right: -22%;
+    top: -25%;
   }
 `;
 
@@ -68,7 +68,7 @@ const Mockup = styled.img`
   bottom: 13%;
 
   @media ${device.laptopM} {
-    bottom: -20%;
+    top: -10%;
     width: auto;
     right: -9%;
   }
